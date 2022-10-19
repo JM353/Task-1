@@ -22,5 +22,10 @@ public class Task1Test {
         assertEquals(6, task1.numberOfElements(new int[] {6, 9, 15, -2, 92, 11}));
     }
 
+    @Test
+    public void averageValue() {
+        assertEquals(21, task1.averageValue(new int[] {6, 9, 15, -2, 92, 11}));
+    }
+
 
 }
