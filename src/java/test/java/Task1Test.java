@@ -9,5 +9,13 @@ public class Task1Test {
     @Test
     public void minimumValue() {
         assertEquals(-2, task1.sorting(new int[] {6, 9, 15, -2, 92, 11}));
+        assertEquals(-6, task1.sorting(new int[] {-6, 9, 15, -2, 92, 11}));
     }
+
+    @Test
+    public void maxValue() {
+        assertEquals(92, task1.sorting(new int[] {6, 9, 15, -2, 92, 11}));
+    }
+
+
 }
