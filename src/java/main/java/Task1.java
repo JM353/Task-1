@@ -27,4 +27,12 @@ public class Task1 {
     public int numberOfElements(int[] ints) {
         return ints.length;
     }
+
+    public int averageValue(int[] ints) {
+        int sum = 0;
+        for (int i = 0; i < ints.length; i++) {
+            sum += ints[i];
+        }
+        return sum / ints.length;
+    }
 }
