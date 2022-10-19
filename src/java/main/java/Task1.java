@@ -23,4 +23,8 @@ public class Task1 {
         }
         return max;
     }
+
+    public int numberOfElements(int[] ints) {
+        return ints.length;
+    }
 }
